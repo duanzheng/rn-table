@@ -1,0 +1,18 @@
+{
+  "name": "rn-table",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "author": "TonyDuan",
+  "license": "MIT",
+  "scripts": {
+    "compile": "tsc && mv ./index.js ./build/"
+  },
+  "dependencies": {
+    "react": "^16.6.3",
+    "react-native": "^0.57.7"
+  },
+  "devDependencies": {
+    "@types/react": "^16.7.13",
+    "@types/react-native": "^0.57.18"
+  }
+}
